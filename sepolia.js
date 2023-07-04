@@ -1,6 +1,6 @@
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const alchemyWeb3 = createAlchemyWeb3("https://eth-mainnet.g.alchemy.com/v2/32Cx_GFT9f4y5CV6hNeyj2O2p6KRYBfQ");
-const PRIVATE_KEY = "1d796391b2ff49a72323670cc57e1e6ae51b3f3da914175971ef8be155b0a0b4";
+const PRIVATE_KEY = "private key";
 const account = alchemyWeb3.eth.accounts.privateKeyToAccount(PRIVATE_KEY);
 
 const transaction = {
